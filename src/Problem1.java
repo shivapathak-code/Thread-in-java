@@ -1,5 +1,5 @@
 public class Problem1 { // here is understand what is race conditon
-    public static void main(String[] args)
+    public static void main(String[] args) throws InterruptedException
     {
         Thread t1 = new Thread(() ->
         {
@@ -23,6 +23,7 @@ public class Problem1 { // here is understand what is race conditon
             }
         });
         t1.start();
+        t1.join();
         t2.start();
     }
 }
