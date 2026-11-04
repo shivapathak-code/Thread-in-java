@@ -1,5 +1,5 @@
 package GenricsInJava.Projects.Project1;
-
+// storage system
 // ye genricks ka 1 projct hain jisme ham shik pa rahe hain ki
 // ek hi claas main different type ke data ko kaise store kerna hain
 // using different datatypes
