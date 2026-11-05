@@ -3,6 +3,8 @@ package GenricsInJava.Projects.Project4;
 // here i understand mutiple bounds in genrics;
 // where T is extends from 1 type and second type to comparable;
 // that is the concept of bounding;
+//Integer extends Number.
+//Integer implements Comparable.
 public class Calculator <T extends Number & Comparable<T>> {
 
     T value;
